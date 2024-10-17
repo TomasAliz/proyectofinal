@@ -1,0 +1,23 @@
+/* estilos de los botones */
+.boton {
+    color: white;
+    background-color: #004fa3;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn-custom {
+    color: white;
+    background-color: #004fa3; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+    &:hover {
+      background-color: #003a7a;
+    }
+  }
+  

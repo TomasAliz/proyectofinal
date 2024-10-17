@@ -1,0 +1,53 @@
+/* Estilos para la sección de accesorios */
+.accesorios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+ 
+  .producto {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  
+    img {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 10px;
+    }
+  
+    h3 {
+      font-size: 18px;
+      color: #ff6600;
+      margin-bottom: 10px;
+    }
+  
+    .precio {
+      font-size: 16px;
+      color: white;
+    }
+  
+    .boton-comprar {
+      background-color: #004fa3;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #003366;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .accesorios {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

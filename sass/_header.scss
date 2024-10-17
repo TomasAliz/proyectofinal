@@ -1,0 +1,37 @@
+/* estilos del header */
+
+header {
+  background-color: rgb(29, 29, 100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  transition: transform 0.3s ease; 
+}
+
+nav ul li a {
+  color: rgb(189, 107, 0);
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+nav ul li:last-child {
+  margin-left: auto; 
+}
+
+nav ul li:hover {
+  transform: translateY(-5px); 
+}
+
+.activo {
+  color: black;
+}
